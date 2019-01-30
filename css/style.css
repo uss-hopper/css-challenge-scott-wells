@@ -62,5 +62,50 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+body {
+	font-family: 'VT323', monospace;
+}
+
+/* SECTION 1 -- HEADER */
+
+.sfooter .sfooter-content header {
+	background-color: #333333;
+	color: #00FF01;
+}
+
+.sfooter-content header div h1 {
+	display: inline-block;
+	letter-spacing: .2em;
+	padding-right: 30px;
+}
+
+/* SECTION 2 -- WELCOME */
+.sfooter-content section .container {
+	text-align: center;
+}
+
+.sfooter-content section .container > img {
+	padding: 50px 0px 30px 0px;
+	max-width: 50%;
+}
+
+.instructions-wrapper {
+	border: 5px solid black;
+}
+
+.instructions-wrapper .instructions-content {
+	text-align: left;
+	display: inline-block;
+	margin: 20px;
+}
+
+.instructions-wrapper .instructions-content h2 {
+	margin-left: 15px;
+}
 
 
+.container .instructions-wrapper img {
+	max-width: 25%;
+	float: right;
+	padding: 20px;
+}

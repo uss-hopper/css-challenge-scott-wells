@@ -6,6 +6,7 @@
 
 		<!-- custom CSS stylesheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 		<title>CSS Mockup Activity</title>
 	</head>
