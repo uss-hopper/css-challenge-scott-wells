@@ -22,7 +22,7 @@
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
-			<section>
+			<section class="welcome">
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
