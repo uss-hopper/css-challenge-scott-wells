@@ -63,8 +63,7 @@ body { width: 100%;}
 ******************************************************/
 
 body {
-	font-family: 'VT323', monospace;
-
+	font-family: monospace;
 }
 
 /* SECTION 1 -- HEADER */
@@ -93,6 +92,7 @@ header .container em {
 
 
 /* SECTION 2 -- WELCOME */
+
 .welcome .container {
 	display: flex;
 	flex-direction: column;
@@ -100,22 +100,29 @@ header .container em {
 	margin: 0 8%;
 }
 
-.welcome .container > img {
-	max-width: 50%;
+.welcome .container img[src="images/welcome.gif"] {
+	max-width: 40%;
 	margin: 50px 0;
 }
 
 .instructions-wrapper {
 	border: 5px solid black;
+	height: 200px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 30px 50px;
 	margin-bottom: 50px;
 }
 
-.container .instructions-wrapper img {
-	max-width: 20%;
+div.instructions-wrapper img {
+	max-height: 100%;
+	margin: 0 0 0 30px;
+}
+
+div.instructions-content {
+	display: flex;
+	flex-direction: column;
 }
 
 /* SECTION 3 -- ABOUT */
@@ -126,21 +133,25 @@ header .container em {
 
 .about-me .container {
 	display: flex;
+	height: 400px;
 	align-items: center;
 	margin: 0 8%;
+	color: white;
 }
 
-.sfooter-content .about-me .container img {
-	max-width: 30%;
-	padding: 0px;
-	border: 2px solid #FFFFFF;
+.about-me .container img[src="images/stunning.jpg"] {
+	border: 3px solid #FFFFFF;
+	height: 250px;
+	width: 375px;
 }
 
-.sfooter-content .about-me .container > * {
-	color: #FFFFFF;
+.about-me-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
 }
 
-.sfooter-content .about-me .container p span{
+.about-me-content p span{
 	color: yellow;
 }
 
@@ -152,4 +163,15 @@ header .container em {
 .sfooter-content .skills .container table {
 	background-color: #333333;
 	color: #00FF01;
+}
+
+/* SECTION 5 -- CONTACT */
+.contact {
+	background-color: #333333;
+}
+
+/* SECTION 6 -- FOOTER */
+footer {
+	background-color: black;
+	color: white;
 }
