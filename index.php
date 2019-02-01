@@ -56,7 +56,7 @@
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
+			<section class="skills">
 				<div class="container">
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>
