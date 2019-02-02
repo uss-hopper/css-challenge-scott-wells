@@ -156,13 +156,30 @@ div.instructions-content {
 }
 
 /* SECTION 4 -- SKILLS */
-.sfooter-content .skills .container {
-
+.skills .container {
+	box-sizing: border-box;
 }
 
-.sfooter-content .skills .container table {
+.skills .container h2 {
+	text-align: right;
+	margin: 50px 0 20px 0;
+}
+
+.skills .container table {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 50px;
+}
+
+td,
+th {
 	background-color: #333333;
 	color: #00FF01;
+	padding-left: 10px;
+}
+
+th {
+	text-align: left;
 }
 
 /* SECTION 5 -- CONTACT */
