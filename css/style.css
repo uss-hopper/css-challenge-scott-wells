@@ -184,7 +184,40 @@ th {
 
 /* SECTION 5 -- CONTACT */
 .contact {
+	height: 600px;
 	background-color: #333333;
+	display: flex;
+	align-items: center;
+}
+
+.contact .container {
+	box-sizing: border-box;
+	background-color: #09630C;
+	color: #00FF01;
+}
+
+.contact .container .form-wrapper {
+
+	padding: 20px;
+
+}
+
+label,
+input,
+textarea {
+	display: block;
+	margin: 10px 0 5px;
+	width: 300px;
+}
+
+form button {
+	margin: 10px 0;
+	background-color: #00FF01;
+	color: black;
+	font-weight: bold;
+	border: none;
+	width: 100px;
+	height: 30px;
 }
 
 /* SECTION 6 -- FOOTER */
